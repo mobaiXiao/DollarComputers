@@ -1,4 +1,6 @@
-﻿using System;
+﻿using DollarComputers.Models;
+using DollarComputers.Views;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -6,8 +8,17 @@ using System.Windows.Forms;
 
 namespace DollarComputers
 {
-    static class Program
+    public static class Program
     {
+        public static SplashForm splashForm;
+        public static StartForm startForm;
+        public static OrderForm orderForm;
+        public static AboutForm aboutForm;
+        public static ProductInfoForm productInfoForm;
+        public static SelectForm selectForm;
+
+        public static Product product;
+
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
@@ -16,7 +27,16 @@ namespace DollarComputers
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            splashForm = new SplashForm();
+            startForm = new StartForm();
+            orderForm = new OrderForm();
+            aboutForm = new AboutForm();
+            productInfoForm = new ProductInfoForm();
+            selectForm = new SelectForm();
+
+            product = new Product();
+
+            Application.Run(selectForm);
         }
     }
 }
