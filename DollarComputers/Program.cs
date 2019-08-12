@@ -36,7 +36,7 @@ namespace DollarComputers
 
             product = new Product();
 
-            Application.Run(orderForm);
+            Application.Run(splashForm);
         }
     }
 }

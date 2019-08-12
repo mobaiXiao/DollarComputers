@@ -115,6 +115,12 @@
     <EmbeddedResource Include="Views\SelectForm.resx">
       <DependentUpon>SelectForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Views\SplashForm.resx">
+      <DependentUpon>SplashForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\StartForm.resx">
+      <DependentUpon>StartForm.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\DataSources\DollarComputers.Models.Product.datasource" />
     <None Include="Properties\Settings.settings">

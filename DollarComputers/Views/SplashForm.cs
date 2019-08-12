@@ -16,5 +16,17 @@ namespace DollarComputers.Views
         {
             InitializeComponent();
         }
+
+        private void SplashFormTimer_Tick(object sender, EventArgs e)
+        {
+            SplashFormTimer.Enabled = false;
+            Program.startForm.Show();
+            this.Hide();
+        }
+
+        private void SplashForm_Load(object sender, EventArgs e)
+        {
+            SplashFormTimer.Enabled = true;
+        }
     }
 }
