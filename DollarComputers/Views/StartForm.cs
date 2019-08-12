@@ -22,5 +22,16 @@ namespace DollarComputers.Views
             Program.selectForm.Show();
             this.Hide();
         }
+
+        private void LoadASavedOrder_Click(object sender, EventArgs e)
+        {
+            Program.productInfoForm.Show();
+            this.Hide();
+        }
+
+        private void ExitTheProgram_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
