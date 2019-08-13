@@ -28,6 +28,7 @@ namespace DollarComputers.Views
         private void LoadASavedOrder_Click(object sender, EventArgs e)
         {
             Program.productInfoForm.Show();
+            Program.productInfoForm.openToolStripMenuItem_Click(sender, e);
             this.Hide();
         }
 
