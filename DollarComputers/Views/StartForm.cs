@@ -10,8 +10,10 @@ using System.Windows.Forms;
 
 namespace DollarComputers.Views
 {
+
     public partial class StartForm : Form
     {
+        
         public StartForm()
         {
             InitializeComponent();
