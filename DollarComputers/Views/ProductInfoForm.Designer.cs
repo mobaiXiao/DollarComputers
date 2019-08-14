@@ -151,7 +151,7 @@
             this.ProductInfoGroupBox.Controls.Add(this.ManufacturerLabel);
             this.ProductInfoGroupBox.Controls.Add(this.PlatformDataLabel);
             this.ProductInfoGroupBox.Controls.Add(this.PlatformLabel);
-            this.ProductInfoGroupBox.Location = new System.Drawing.Point(12, 109);
+            this.ProductInfoGroupBox.Location = new System.Drawing.Point(12, 105);
             this.ProductInfoGroupBox.Name = "ProductInfoGroupBox";
             this.ProductInfoGroupBox.Size = new System.Drawing.Size(760, 151);
             this.ProductInfoGroupBox.TabIndex = 1;
@@ -160,7 +160,7 @@
             // 
             // ProductIDLabel
             // 
-            this.ProductIDLabel.Location = new System.Drawing.Point(39, 51);
+            this.ProductIDLabel.Location = new System.Drawing.Point(39, 48);
             this.ProductIDLabel.Name = "ProductIDLabel";
             this.ProductIDLabel.Size = new System.Drawing.Size(85, 35);
             this.ProductIDLabel.TabIndex = 2;
@@ -174,7 +174,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.ProductIDDataLabel.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.ProductIDDataLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.ProductIDDataLabel.Location = new System.Drawing.Point(130, 51);
+            this.ProductIDDataLabel.Location = new System.Drawing.Point(130, 48);
             this.ProductIDDataLabel.Name = "ProductIDDataLabel";
             this.ProductIDDataLabel.Size = new System.Drawing.Size(102, 35);
             this.ProductIDDataLabel.TabIndex = 3;
@@ -187,7 +187,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.ConditionDataLabel.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.ConditionDataLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.ConditionDataLabel.Location = new System.Drawing.Point(360, 51);
+            this.ConditionDataLabel.Location = new System.Drawing.Point(360, 48);
             this.ConditionDataLabel.Name = "ConditionDataLabel";
             this.ConditionDataLabel.Size = new System.Drawing.Size(102, 35);
             this.ConditionDataLabel.TabIndex = 5;
@@ -195,7 +195,7 @@
             // 
             // ConditionLabel
             // 
-            this.ConditionLabel.Location = new System.Drawing.Point(251, 51);
+            this.ConditionLabel.Location = new System.Drawing.Point(251, 48);
             this.ConditionLabel.Name = "ConditionLabel";
             this.ConditionLabel.Size = new System.Drawing.Size(103, 35);
             this.ConditionLabel.TabIndex = 4;
@@ -209,7 +209,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.CostDataLabel.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.CostDataLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.CostDataLabel.Location = new System.Drawing.Point(552, 51);
+            this.CostDataLabel.Location = new System.Drawing.Point(552, 48);
             this.CostDataLabel.Name = "CostDataLabel";
             this.CostDataLabel.Size = new System.Drawing.Size(102, 35);
             this.CostDataLabel.TabIndex = 7;
@@ -217,7 +217,7 @@
             // 
             // CostLabel
             // 
-            this.CostLabel.Location = new System.Drawing.Point(496, 51);
+            this.CostLabel.Location = new System.Drawing.Point(496, 48);
             this.CostLabel.Name = "CostLabel";
             this.CostLabel.Size = new System.Drawing.Size(50, 35);
             this.CostLabel.TabIndex = 6;
@@ -332,7 +332,7 @@
             this.TechSpecsGroupBox.Controls.Add(this.CPUBrandLabel);
             this.TechSpecsGroupBox.Controls.Add(this.MemoryDataLabel);
             this.TechSpecsGroupBox.Controls.Add(this.MemoryLabel);
-            this.TechSpecsGroupBox.Location = new System.Drawing.Point(12, 286);
+            this.TechSpecsGroupBox.Location = new System.Drawing.Point(12, 288);
             this.TechSpecsGroupBox.Name = "TechSpecsGroupBox";
             this.TechSpecsGroupBox.Size = new System.Drawing.Size(760, 206);
             this.TechSpecsGroupBox.TabIndex = 8;
