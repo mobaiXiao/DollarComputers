@@ -42,9 +42,25 @@ namespace DollarComputers.Views
 
             rows[rowIndex].Selected = true;
 
-            string outputString = string.Empty;
-            outputString = cells[2].Value.ToString() + " " + cells[3].Value.ToString() + " Priced at: $" + cells[1].Value.ToString();
-            ShowSelectedTextBox.Text = outputString;
+
+            Program.product.productID = short.Parse(cells[0].Value.ToString());
+            Program.product.cost = decimal.Parse(cells[1].Value.ToString());
+            Program.product.manufacturer = cells[2].Value.ToString();
+            Program.product.model = cells[3].Value.ToString();
+            Program.product.RAM_size = cells[5].Value.ToString();
+            Program.product.condition = cells[14].Value.ToString();
+            Program.product.screensize = cells[7].Value.ToString();
+            Program.product.CPU_brand = cells[10].Value.ToString();
+            Program.product.HDD_size = cells[17].Value.ToString();
+            Program.product.CPU_speed = cells[13].Value.ToString();
+            Program.product.CPU_type = cells[11].Value.ToString();
+            Program.product.webcam = cells[30].Value.ToString();
+            Program.product.platform = cells[16].Value.ToString();
+            Program.product.OS = cells[15].Value.ToString();
+            Program.product.GPU_Type = cells[19].Value.ToString();
+            Program.product.CPU_number = cells[12].Value.ToString();
+
+            ShowSelectedTextBox.Text = cells[2].Value.ToString() + " " + cells[3].Value.ToString() + " Priced at: $" + cells[1].Value.ToString();
         }
 
         private void NextButton_Click(object sender, EventArgs e)
