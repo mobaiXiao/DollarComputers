@@ -41,44 +41,46 @@
             this.ProductPrintForm = new Microsoft.VisualBasic.PowerPacks.Printing.PrintForm(this.components);
             this.TotalLine = new Microsoft.VisualBasic.PowerPacks.LineShape();
             this.SysComponentGroupBox = new System.Windows.Forms.GroupBox();
-            this.lineShape1 = new Microsoft.VisualBasic.PowerPacks.LineShape();
-            this.shapeContainer2 = new Microsoft.VisualBasic.PowerPacks.ShapeContainer();
+            this.GroupDataLabel = new System.Windows.Forms.Label();
+            this.OSLabel = new System.Windows.Forms.Label();
+            this.CPUSpeedLabel = new System.Windows.Forms.Label();
+            this.WebCamLabel = new System.Windows.Forms.Label();
+            this.HDDLabel = new System.Windows.Forms.Label();
+            this.CPUNumberLabel = new System.Windows.Forms.Label();
+            this.CPUTypeLabel = new System.Windows.Forms.Label();
+            this.GPUTypeLabel = new System.Windows.Forms.Label();
+            this.CPUBrandLabel = new System.Windows.Forms.Label();
+            this.MemoryLabel = new System.Windows.Forms.Label();
+            this.LCDSizeLabel = new System.Windows.Forms.Label();
+            this.ManufacturerDataLabel = new System.Windows.Forms.Label();
+            this.ConditionDataLabel = new System.Windows.Forms.Label();
+            this.PlatformDataLabel = new System.Windows.Forms.Label();
+            this.PlatformLabel = new System.Windows.Forms.Label();
             this.ConditionLabel = new System.Windows.Forms.Label();
+            this.ManufacturerLabel = new System.Windows.Forms.Label();
+            this.shapeContainer2 = new Microsoft.VisualBasic.PowerPacks.ShapeContainer();
+            this.lineShape1 = new Microsoft.VisualBasic.PowerPacks.LineShape();
             this.YourPriceGroupBox = new System.Windows.Forms.GroupBox();
+            this.TotalDataLabel = new System.Windows.Forms.Label();
+            this.TotalLabel = new System.Windows.Forms.Label();
+            this.SalesTaxDataLabel = new System.Windows.Forms.Label();
+            this.SalesTaxLabel = new System.Windows.Forms.Label();
+            this.PriceDataLabel = new System.Windows.Forms.Label();
+            this.PriceLabel = new System.Windows.Forms.Label();
+            this.shapeContainer3 = new Microsoft.VisualBasic.PowerPacks.ShapeContainer();
             this.FinishButton = new System.Windows.Forms.Button();
             this.CancelButton = new System.Windows.Forms.Button();
             this.BackButton = new System.Windows.Forms.Button();
-            this.shapeContainer3 = new Microsoft.VisualBasic.PowerPacks.ShapeContainer();
-            this.ManufacturerLabel = new System.Windows.Forms.Label();
-            this.PlatformDataLabel = new System.Windows.Forms.Label();
-            this.PlatformLabel = new System.Windows.Forms.Label();
-            this.ConditionDataLabel = new System.Windows.Forms.Label();
-            this.ManufacturerDataLabel = new System.Windows.Forms.Label();
             this.ModelDataLabel = new System.Windows.Forms.Label();
             this.ModelLabel = new System.Windows.Forms.Label();
-            this.LCDSizeLabel = new System.Windows.Forms.Label();
-            this.MemoryLabel = new System.Windows.Forms.Label();
-            this.CPUBrandLabel = new System.Windows.Forms.Label();
-            this.GPUTypeLabel = new System.Windows.Forms.Label();
-            this.CPUTypeLabel = new System.Windows.Forms.Label();
-            this.CPUNumberLabel = new System.Windows.Forms.Label();
-            this.HDDLabel = new System.Windows.Forms.Label();
-            this.WebCamLabel = new System.Windows.Forms.Label();
-            this.CPUSpeedLabel = new System.Windows.Forms.Label();
-            this.OSLabel = new System.Windows.Forms.Label();
-            this.GroupDataLabel = new System.Windows.Forms.Label();
-            this.PriceDataLabel = new System.Windows.Forms.Label();
-            this.PriceLabel = new System.Windows.Forms.Label();
-            this.SalesTaxLabel = new System.Windows.Forms.Label();
-            this.SalesTaxDataLabel = new System.Windows.Forms.Label();
-            this.TotalLabel = new System.Windows.Forms.Label();
-            this.TotalDataLabel = new System.Windows.Forms.Label();
             this.ComputerLogoPictureBox = new System.Windows.Forms.PictureBox();
             this.LogoDataLabel = new System.Windows.Forms.Label();
+            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.OrderFormMenuStrip.SuspendLayout();
             this.SysComponentGroupBox.SuspendLayout();
             this.YourPriceGroupBox.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ComputerLogoPictureBox)).BeginInit();
+            this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // OrderFormMenuStrip
@@ -168,17 +170,7 @@
             // 
             // SysComponentGroupBox
             // 
-            this.SysComponentGroupBox.Controls.Add(this.GroupDataLabel);
-            this.SysComponentGroupBox.Controls.Add(this.OSLabel);
-            this.SysComponentGroupBox.Controls.Add(this.CPUSpeedLabel);
-            this.SysComponentGroupBox.Controls.Add(this.WebCamLabel);
-            this.SysComponentGroupBox.Controls.Add(this.HDDLabel);
-            this.SysComponentGroupBox.Controls.Add(this.CPUNumberLabel);
-            this.SysComponentGroupBox.Controls.Add(this.CPUTypeLabel);
-            this.SysComponentGroupBox.Controls.Add(this.GPUTypeLabel);
-            this.SysComponentGroupBox.Controls.Add(this.CPUBrandLabel);
-            this.SysComponentGroupBox.Controls.Add(this.MemoryLabel);
-            this.SysComponentGroupBox.Controls.Add(this.LCDSizeLabel);
+            this.SysComponentGroupBox.Controls.Add(this.tableLayoutPanel1);
             this.SysComponentGroupBox.Controls.Add(this.ManufacturerDataLabel);
             this.SysComponentGroupBox.Controls.Add(this.ConditionDataLabel);
             this.SysComponentGroupBox.Controls.Add(this.PlatformDataLabel);
@@ -193,103 +185,166 @@
             this.SysComponentGroupBox.TabStop = false;
             this.SysComponentGroupBox.Text = "System Components";
             // 
-            // lineShape1
+            // GroupDataLabel
             // 
-            this.lineShape1.BorderColor = System.Drawing.SystemColors.ControlLight;
-            this.lineShape1.Name = "lineShape1";
-            this.lineShape1.X1 = -1;
-            this.lineShape1.X2 = 382;
-            this.lineShape1.Y1 = 112;
-            this.lineShape1.Y2 = 112;
+            this.GroupDataLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.GroupDataLabel.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.GroupDataLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.tableLayoutPanel1.SetColumnSpan(this.GroupDataLabel, 3);
+            this.GroupDataLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.GroupDataLabel.Location = new System.Drawing.Point(113, 0);
+            this.GroupDataLabel.Name = "GroupDataLabel";
+            this.tableLayoutPanel1.SetRowSpan(this.GroupDataLabel, 10);
+            this.GroupDataLabel.Size = new System.Drawing.Size(282, 357);
+            this.GroupDataLabel.TabIndex = 26;
             // 
-            // shapeContainer2
+            // OSLabel
             // 
-            this.shapeContainer2.Location = new System.Drawing.Point(3, 22);
-            this.shapeContainer2.Margin = new System.Windows.Forms.Padding(0);
-            this.shapeContainer2.Name = "shapeContainer2";
-            this.shapeContainer2.Shapes.AddRange(new Microsoft.VisualBasic.PowerPacks.Shape[] {
-            this.lineShape1});
-            this.shapeContainer2.Size = new System.Drawing.Size(415, 497);
-            this.shapeContainer2.TabIndex = 0;
-            this.shapeContainer2.TabStop = false;
+            this.OSLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.OSLabel.Location = new System.Drawing.Point(3, 315);
+            this.OSLabel.Name = "OSLabel";
+            this.OSLabel.Size = new System.Drawing.Size(104, 42);
+            this.OSLabel.TabIndex = 25;
+            this.OSLabel.Text = "OS";
+            this.OSLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // ConditionLabel
+            // CPUSpeedLabel
             // 
-            this.ConditionLabel.Location = new System.Drawing.Point(29, 34);
-            this.ConditionLabel.Name = "ConditionLabel";
-            this.ConditionLabel.Size = new System.Drawing.Size(82, 35);
-            this.ConditionLabel.TabIndex = 6;
-            this.ConditionLabel.Text = "Condition";
-            this.ConditionLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.CPUSpeedLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.CPUSpeedLabel.Location = new System.Drawing.Point(3, 175);
+            this.CPUSpeedLabel.Name = "CPUSpeedLabel";
+            this.CPUSpeedLabel.Size = new System.Drawing.Size(104, 35);
+            this.CPUSpeedLabel.TabIndex = 24;
+            this.CPUSpeedLabel.Text = "CPU Speed";
+            this.CPUSpeedLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // YourPriceGroupBox
+            // WebCamLabel
             // 
-            this.YourPriceGroupBox.Controls.Add(this.TotalDataLabel);
-            this.YourPriceGroupBox.Controls.Add(this.TotalLabel);
-            this.YourPriceGroupBox.Controls.Add(this.SalesTaxDataLabel);
-            this.YourPriceGroupBox.Controls.Add(this.SalesTaxLabel);
-            this.YourPriceGroupBox.Controls.Add(this.PriceDataLabel);
-            this.YourPriceGroupBox.Controls.Add(this.PriceLabel);
-            this.YourPriceGroupBox.Controls.Add(this.shapeContainer3);
-            this.YourPriceGroupBox.Location = new System.Drawing.Point(439, 293);
-            this.YourPriceGroupBox.Name = "YourPriceGroupBox";
-            this.YourPriceGroupBox.Size = new System.Drawing.Size(333, 201);
-            this.YourPriceGroupBox.TabIndex = 7;
-            this.YourPriceGroupBox.TabStop = false;
-            this.YourPriceGroupBox.Text = "Your Price";
+            this.WebCamLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.WebCamLabel.Location = new System.Drawing.Point(3, 280);
+            this.WebCamLabel.Name = "WebCamLabel";
+            this.WebCamLabel.Size = new System.Drawing.Size(104, 35);
+            this.WebCamLabel.TabIndex = 23;
+            this.WebCamLabel.Text = "WebCam";
+            this.WebCamLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // FinishButton
+            // HDDLabel
             // 
-            this.FinishButton.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.FinishButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.FinishButton.Location = new System.Drawing.Point(690, 511);
-            this.FinishButton.Name = "FinishButton";
-            this.FinishButton.Size = new System.Drawing.Size(79, 35);
-            this.FinishButton.TabIndex = 14;
-            this.FinishButton.Text = "Finish";
-            this.FinishButton.UseVisualStyleBackColor = false;
+            this.HDDLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.HDDLabel.Location = new System.Drawing.Point(3, 210);
+            this.HDDLabel.Name = "HDDLabel";
+            this.HDDLabel.Size = new System.Drawing.Size(104, 35);
+            this.HDDLabel.TabIndex = 22;
+            this.HDDLabel.Text = "HDD";
+            this.HDDLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // CancelButton
+            // CPUNumberLabel
             // 
-            this.CancelButton.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.CancelButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.CancelButton.Location = new System.Drawing.Point(594, 511);
-            this.CancelButton.Name = "CancelButton";
-            this.CancelButton.Size = new System.Drawing.Size(79, 35);
-            this.CancelButton.TabIndex = 13;
-            this.CancelButton.Text = "Cancel";
-            this.CancelButton.UseVisualStyleBackColor = false;
+            this.CPUNumberLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.CPUNumberLabel.Location = new System.Drawing.Point(3, 140);
+            this.CPUNumberLabel.Name = "CPUNumberLabel";
+            this.CPUNumberLabel.Size = new System.Drawing.Size(104, 35);
+            this.CPUNumberLabel.TabIndex = 21;
+            this.CPUNumberLabel.Text = "CPU Number";
+            this.CPUNumberLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // BackButton
+            // CPUTypeLabel
             // 
-            this.BackButton.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.BackButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BackButton.Location = new System.Drawing.Point(497, 511);
-            this.BackButton.Name = "BackButton";
-            this.BackButton.Size = new System.Drawing.Size(79, 35);
-            this.BackButton.TabIndex = 15;
-            this.BackButton.Text = "Back";
-            this.BackButton.UseVisualStyleBackColor = false;
+            this.CPUTypeLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.CPUTypeLabel.Location = new System.Drawing.Point(3, 105);
+            this.CPUTypeLabel.Name = "CPUTypeLabel";
+            this.CPUTypeLabel.Size = new System.Drawing.Size(104, 35);
+            this.CPUTypeLabel.TabIndex = 20;
+            this.CPUTypeLabel.Text = "CPU Type";
+            this.CPUTypeLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // shapeContainer3
+            // GPUTypeLabel
             // 
-            this.shapeContainer3.Location = new System.Drawing.Point(3, 22);
-            this.shapeContainer3.Margin = new System.Windows.Forms.Padding(0);
-            this.shapeContainer3.Name = "shapeContainer3";
-            this.shapeContainer3.Shapes.AddRange(new Microsoft.VisualBasic.PowerPacks.Shape[] {
-            this.TotalLine});
-            this.shapeContainer3.Size = new System.Drawing.Size(327, 176);
-            this.shapeContainer3.TabIndex = 0;
-            this.shapeContainer3.TabStop = false;
+            this.GPUTypeLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.GPUTypeLabel.Location = new System.Drawing.Point(3, 245);
+            this.GPUTypeLabel.Name = "GPUTypeLabel";
+            this.GPUTypeLabel.Size = new System.Drawing.Size(104, 35);
+            this.GPUTypeLabel.TabIndex = 19;
+            this.GPUTypeLabel.Text = "GPU Type";
+            this.GPUTypeLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // ManufacturerLabel
+            // CPUBrandLabel
             // 
-            this.ManufacturerLabel.Location = new System.Drawing.Point(1, 84);
-            this.ManufacturerLabel.Name = "ManufacturerLabel";
-            this.ManufacturerLabel.Size = new System.Drawing.Size(110, 35);
-            this.ManufacturerLabel.TabIndex = 8;
-            this.ManufacturerLabel.Text = "Manufacturer";
-            this.ManufacturerLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.CPUBrandLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.CPUBrandLabel.Location = new System.Drawing.Point(3, 70);
+            this.CPUBrandLabel.Name = "CPUBrandLabel";
+            this.CPUBrandLabel.Size = new System.Drawing.Size(104, 35);
+            this.CPUBrandLabel.TabIndex = 16;
+            this.CPUBrandLabel.Text = "CPU Brand";
+            this.CPUBrandLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // MemoryLabel
+            // 
+            this.MemoryLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.MemoryLabel.Location = new System.Drawing.Point(3, 35);
+            this.MemoryLabel.Name = "MemoryLabel";
+            this.MemoryLabel.Size = new System.Drawing.Size(104, 35);
+            this.MemoryLabel.TabIndex = 15;
+            this.MemoryLabel.Text = "Memory";
+            this.MemoryLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // LCDSizeLabel
+            // 
+            this.LCDSizeLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.LCDSizeLabel.Location = new System.Drawing.Point(3, 0);
+            this.LCDSizeLabel.Name = "LCDSizeLabel";
+            this.LCDSizeLabel.Size = new System.Drawing.Size(104, 35);
+            this.LCDSizeLabel.TabIndex = 14;
+            this.LCDSizeLabel.Text = "LCD Size";
+            this.LCDSizeLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // ManufacturerDataLabel
+            // 
+            this.ManufacturerDataLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.ManufacturerDataLabel.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.ManufacturerDataLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ManufacturerDataLabel.Location = new System.Drawing.Point(117, 84);
+            this.ManufacturerDataLabel.Name = "ManufacturerDataLabel";
+            this.ManufacturerDataLabel.Size = new System.Drawing.Size(102, 35);
+            this.ManufacturerDataLabel.TabIndex = 13;
+            this.ManufacturerDataLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // ConditionDataLabel
+            // 
+            this.ConditionDataLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.ConditionDataLabel.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.ConditionDataLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ConditionDataLabel.Location = new System.Drawing.Point(117, 34);
+            this.ConditionDataLabel.Name = "ConditionDataLabel";
+            this.ConditionDataLabel.Size = new System.Drawing.Size(102, 35);
+            this.ConditionDataLabel.TabIndex = 12;
+            this.ConditionDataLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // PlatformDataLabel
             // 
@@ -313,156 +368,103 @@
             this.PlatformLabel.Text = "Platform";
             this.PlatformLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // ConditionDataLabel
+            // ConditionLabel
             // 
-            this.ConditionDataLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.ConditionLabel.Location = new System.Drawing.Point(29, 34);
+            this.ConditionLabel.Name = "ConditionLabel";
+            this.ConditionLabel.Size = new System.Drawing.Size(82, 35);
+            this.ConditionLabel.TabIndex = 6;
+            this.ConditionLabel.Text = "Condition";
+            this.ConditionLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // ManufacturerLabel
+            // 
+            this.ManufacturerLabel.Location = new System.Drawing.Point(1, 84);
+            this.ManufacturerLabel.Name = "ManufacturerLabel";
+            this.ManufacturerLabel.Size = new System.Drawing.Size(110, 35);
+            this.ManufacturerLabel.TabIndex = 8;
+            this.ManufacturerLabel.Text = "Manufacturer";
+            this.ManufacturerLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // shapeContainer2
+            // 
+            this.shapeContainer2.Location = new System.Drawing.Point(3, 22);
+            this.shapeContainer2.Margin = new System.Windows.Forms.Padding(0);
+            this.shapeContainer2.Name = "shapeContainer2";
+            this.shapeContainer2.Shapes.AddRange(new Microsoft.VisualBasic.PowerPacks.Shape[] {
+            this.lineShape1});
+            this.shapeContainer2.Size = new System.Drawing.Size(415, 497);
+            this.shapeContainer2.TabIndex = 0;
+            this.shapeContainer2.TabStop = false;
+            // 
+            // lineShape1
+            // 
+            this.lineShape1.BorderColor = System.Drawing.SystemColors.ControlLight;
+            this.lineShape1.Name = "lineShape1";
+            this.lineShape1.X1 = -1;
+            this.lineShape1.X2 = 416;
+            this.lineShape1.Y1 = 112;
+            this.lineShape1.Y2 = 111;
+            // 
+            // YourPriceGroupBox
+            // 
+            this.YourPriceGroupBox.Controls.Add(this.TotalDataLabel);
+            this.YourPriceGroupBox.Controls.Add(this.TotalLabel);
+            this.YourPriceGroupBox.Controls.Add(this.SalesTaxDataLabel);
+            this.YourPriceGroupBox.Controls.Add(this.SalesTaxLabel);
+            this.YourPriceGroupBox.Controls.Add(this.PriceDataLabel);
+            this.YourPriceGroupBox.Controls.Add(this.PriceLabel);
+            this.YourPriceGroupBox.Controls.Add(this.shapeContainer3);
+            this.YourPriceGroupBox.Location = new System.Drawing.Point(439, 293);
+            this.YourPriceGroupBox.Name = "YourPriceGroupBox";
+            this.YourPriceGroupBox.Size = new System.Drawing.Size(333, 201);
+            this.YourPriceGroupBox.TabIndex = 7;
+            this.YourPriceGroupBox.TabStop = false;
+            this.YourPriceGroupBox.Text = "Your Price";
+            // 
+            // TotalDataLabel
+            // 
+            this.TotalDataLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.ConditionDataLabel.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.ConditionDataLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.ConditionDataLabel.Location = new System.Drawing.Point(117, 34);
-            this.ConditionDataLabel.Name = "ConditionDataLabel";
-            this.ConditionDataLabel.Size = new System.Drawing.Size(102, 35);
-            this.ConditionDataLabel.TabIndex = 12;
-            this.ConditionDataLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.TotalDataLabel.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.TotalDataLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.TotalDataLabel.Location = new System.Drawing.Point(225, 143);
+            this.TotalDataLabel.Name = "TotalDataLabel";
+            this.TotalDataLabel.Size = new System.Drawing.Size(102, 35);
+            this.TotalDataLabel.TabIndex = 13;
+            this.TotalDataLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // ManufacturerDataLabel
+            // TotalLabel
             // 
-            this.ManufacturerDataLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.TotalLabel.Location = new System.Drawing.Point(13, 143);
+            this.TotalLabel.Name = "TotalLabel";
+            this.TotalLabel.Size = new System.Drawing.Size(50, 35);
+            this.TotalLabel.TabIndex = 12;
+            this.TotalLabel.Text = "Total";
+            this.TotalLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // SalesTaxDataLabel
+            // 
+            this.SalesTaxDataLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.ManufacturerDataLabel.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.ManufacturerDataLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.ManufacturerDataLabel.Location = new System.Drawing.Point(117, 84);
-            this.ManufacturerDataLabel.Name = "ManufacturerDataLabel";
-            this.ManufacturerDataLabel.Size = new System.Drawing.Size(102, 35);
-            this.ManufacturerDataLabel.TabIndex = 13;
-            this.ManufacturerDataLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.SalesTaxDataLabel.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.SalesTaxDataLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.SalesTaxDataLabel.Location = new System.Drawing.Point(225, 87);
+            this.SalesTaxDataLabel.Name = "SalesTaxDataLabel";
+            this.SalesTaxDataLabel.Size = new System.Drawing.Size(102, 35);
+            this.SalesTaxDataLabel.TabIndex = 11;
+            this.SalesTaxDataLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // ModelDataLabel
+            // SalesTaxLabel
             // 
-            this.ModelDataLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.ModelDataLabel.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.ModelDataLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.ModelDataLabel.Location = new System.Drawing.Point(314, 111);
-            this.ModelDataLabel.Name = "ModelDataLabel";
-            this.ModelDataLabel.Size = new System.Drawing.Size(102, 35);
-            this.ModelDataLabel.TabIndex = 15;
-            this.ModelDataLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // ModelLabel
-            // 
-            this.ModelLabel.Location = new System.Drawing.Point(247, 111);
-            this.ModelLabel.Name = "ModelLabel";
-            this.ModelLabel.Size = new System.Drawing.Size(61, 35);
-            this.ModelLabel.TabIndex = 14;
-            this.ModelLabel.Text = "Model";
-            this.ModelLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // LCDSizeLabel
-            // 
-            this.LCDSizeLabel.Location = new System.Drawing.Point(26, 152);
-            this.LCDSizeLabel.Name = "LCDSizeLabel";
-            this.LCDSizeLabel.Size = new System.Drawing.Size(85, 35);
-            this.LCDSizeLabel.TabIndex = 14;
-            this.LCDSizeLabel.Text = "LCD Size";
-            this.LCDSizeLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // MemoryLabel
-            // 
-            this.MemoryLabel.Location = new System.Drawing.Point(26, 187);
-            this.MemoryLabel.Name = "MemoryLabel";
-            this.MemoryLabel.Size = new System.Drawing.Size(85, 35);
-            this.MemoryLabel.TabIndex = 15;
-            this.MemoryLabel.Text = "Memory";
-            this.MemoryLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // CPUBrandLabel
-            // 
-            this.CPUBrandLabel.Location = new System.Drawing.Point(11, 222);
-            this.CPUBrandLabel.Name = "CPUBrandLabel";
-            this.CPUBrandLabel.Size = new System.Drawing.Size(100, 35);
-            this.CPUBrandLabel.TabIndex = 16;
-            this.CPUBrandLabel.Text = "CPU Brand";
-            this.CPUBrandLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // GPUTypeLabel
-            // 
-            this.GPUTypeLabel.Location = new System.Drawing.Point(26, 397);
-            this.GPUTypeLabel.Name = "GPUTypeLabel";
-            this.GPUTypeLabel.Size = new System.Drawing.Size(85, 35);
-            this.GPUTypeLabel.TabIndex = 19;
-            this.GPUTypeLabel.Text = "GPU Type";
-            this.GPUTypeLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // CPUTypeLabel
-            // 
-            this.CPUTypeLabel.Location = new System.Drawing.Point(26, 257);
-            this.CPUTypeLabel.Name = "CPUTypeLabel";
-            this.CPUTypeLabel.Size = new System.Drawing.Size(85, 35);
-            this.CPUTypeLabel.TabIndex = 20;
-            this.CPUTypeLabel.Text = "CPU Type";
-            this.CPUTypeLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // CPUNumberLabel
-            // 
-            this.CPUNumberLabel.Location = new System.Drawing.Point(-5, 292);
-            this.CPUNumberLabel.Name = "CPUNumberLabel";
-            this.CPUNumberLabel.Size = new System.Drawing.Size(116, 35);
-            this.CPUNumberLabel.TabIndex = 21;
-            this.CPUNumberLabel.Text = "CPU Number";
-            this.CPUNumberLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // HDDLabel
-            // 
-            this.HDDLabel.Location = new System.Drawing.Point(26, 362);
-            this.HDDLabel.Name = "HDDLabel";
-            this.HDDLabel.Size = new System.Drawing.Size(85, 35);
-            this.HDDLabel.TabIndex = 22;
-            this.HDDLabel.Text = "HDD";
-            this.HDDLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // WebCamLabel
-            // 
-            this.WebCamLabel.Location = new System.Drawing.Point(26, 432);
-            this.WebCamLabel.Name = "WebCamLabel";
-            this.WebCamLabel.Size = new System.Drawing.Size(85, 35);
-            this.WebCamLabel.TabIndex = 23;
-            this.WebCamLabel.Text = "WebCam";
-            this.WebCamLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // CPUSpeedLabel
-            // 
-            this.CPUSpeedLabel.Location = new System.Drawing.Point(-1, 327);
-            this.CPUSpeedLabel.Name = "CPUSpeedLabel";
-            this.CPUSpeedLabel.Size = new System.Drawing.Size(112, 35);
-            this.CPUSpeedLabel.TabIndex = 24;
-            this.CPUSpeedLabel.Text = "CPU Speed";
-            this.CPUSpeedLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // OSLabel
-            // 
-            this.OSLabel.Location = new System.Drawing.Point(68, 467);
-            this.OSLabel.Name = "OSLabel";
-            this.OSLabel.Size = new System.Drawing.Size(43, 35);
-            this.OSLabel.TabIndex = 25;
-            this.OSLabel.Text = "OS";
-            this.OSLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // GroupDataLabel
-            // 
-            this.GroupDataLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.GroupDataLabel.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.GroupDataLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.GroupDataLabel.Location = new System.Drawing.Point(117, 152);
-            this.GroupDataLabel.Name = "GroupDataLabel";
-            this.GroupDataLabel.Size = new System.Drawing.Size(287, 350);
-            this.GroupDataLabel.TabIndex = 26;
-            this.GroupDataLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.SalesTaxLabel.Location = new System.Drawing.Point(13, 87);
+            this.SalesTaxLabel.Name = "SalesTaxLabel";
+            this.SalesTaxLabel.Size = new System.Drawing.Size(124, 35);
+            this.SalesTaxLabel.TabIndex = 10;
+            this.SalesTaxLabel.Text = "Sales Tax (13%)";
+            this.SalesTaxLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // PriceDataLabel
             // 
@@ -486,49 +488,74 @@
             this.PriceLabel.Text = "Price";
             this.PriceLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // SalesTaxLabel
+            // shapeContainer3
             // 
-            this.SalesTaxLabel.Location = new System.Drawing.Point(13, 87);
-            this.SalesTaxLabel.Name = "SalesTaxLabel";
-            this.SalesTaxLabel.Size = new System.Drawing.Size(124, 35);
-            this.SalesTaxLabel.TabIndex = 10;
-            this.SalesTaxLabel.Text = "Sales Tax (13%)";
-            this.SalesTaxLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.shapeContainer3.Location = new System.Drawing.Point(3, 22);
+            this.shapeContainer3.Margin = new System.Windows.Forms.Padding(0);
+            this.shapeContainer3.Name = "shapeContainer3";
+            this.shapeContainer3.Shapes.AddRange(new Microsoft.VisualBasic.PowerPacks.Shape[] {
+            this.TotalLine});
+            this.shapeContainer3.Size = new System.Drawing.Size(327, 176);
+            this.shapeContainer3.TabIndex = 0;
+            this.shapeContainer3.TabStop = false;
             // 
-            // SalesTaxDataLabel
+            // FinishButton
             // 
-            this.SalesTaxDataLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.FinishButton.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.FinishButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.FinishButton.Location = new System.Drawing.Point(690, 511);
+            this.FinishButton.Name = "FinishButton";
+            this.FinishButton.Size = new System.Drawing.Size(79, 35);
+            this.FinishButton.TabIndex = 14;
+            this.FinishButton.Text = "Finish";
+            this.FinishButton.UseVisualStyleBackColor = false;
+            this.FinishButton.Click += new System.EventHandler(this.FinishButton_Click);
+            // 
+            // CancelButton
+            // 
+            this.CancelButton.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.CancelButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.CancelButton.Location = new System.Drawing.Point(594, 511);
+            this.CancelButton.Name = "CancelButton";
+            this.CancelButton.Size = new System.Drawing.Size(79, 35);
+            this.CancelButton.TabIndex = 13;
+            this.CancelButton.Text = "Cancel";
+            this.CancelButton.UseVisualStyleBackColor = false;
+            this.CancelButton.Click += new System.EventHandler(this.CancelButton_Click_1);
+            // 
+            // BackButton
+            // 
+            this.BackButton.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.BackButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BackButton.Location = new System.Drawing.Point(497, 511);
+            this.BackButton.Name = "BackButton";
+            this.BackButton.Size = new System.Drawing.Size(79, 35);
+            this.BackButton.TabIndex = 15;
+            this.BackButton.Text = "Back";
+            this.BackButton.UseVisualStyleBackColor = false;
+            this.BackButton.Click += new System.EventHandler(this.BackButton_Click);
+            // 
+            // ModelDataLabel
+            // 
+            this.ModelDataLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.SalesTaxDataLabel.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.SalesTaxDataLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.SalesTaxDataLabel.Location = new System.Drawing.Point(225, 87);
-            this.SalesTaxDataLabel.Name = "SalesTaxDataLabel";
-            this.SalesTaxDataLabel.Size = new System.Drawing.Size(102, 35);
-            this.SalesTaxDataLabel.TabIndex = 11;
-            this.SalesTaxDataLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.ModelDataLabel.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.ModelDataLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ModelDataLabel.Location = new System.Drawing.Point(314, 111);
+            this.ModelDataLabel.Name = "ModelDataLabel";
+            this.ModelDataLabel.Size = new System.Drawing.Size(102, 35);
+            this.ModelDataLabel.TabIndex = 15;
+            this.ModelDataLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // TotalLabel
+            // ModelLabel
             // 
-            this.TotalLabel.Location = new System.Drawing.Point(13, 143);
-            this.TotalLabel.Name = "TotalLabel";
-            this.TotalLabel.Size = new System.Drawing.Size(50, 35);
-            this.TotalLabel.TabIndex = 12;
-            this.TotalLabel.Text = "Total";
-            this.TotalLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // TotalDataLabel
-            // 
-            this.TotalDataLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.TotalDataLabel.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.TotalDataLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.TotalDataLabel.Location = new System.Drawing.Point(225, 143);
-            this.TotalDataLabel.Name = "TotalDataLabel";
-            this.TotalDataLabel.Size = new System.Drawing.Size(102, 35);
-            this.TotalDataLabel.TabIndex = 13;
-            this.TotalDataLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.ModelLabel.Location = new System.Drawing.Point(247, 111);
+            this.ModelLabel.Name = "ModelLabel";
+            this.ModelLabel.Size = new System.Drawing.Size(61, 35);
+            this.ModelLabel.TabIndex = 14;
+            this.ModelLabel.Text = "Model";
+            this.ModelLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // ComputerLogoPictureBox
             // 
@@ -552,6 +579,40 @@
             this.LogoDataLabel.Size = new System.Drawing.Size(194, 63);
             this.LogoDataLabel.TabIndex = 17;
             this.LogoDataLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // tableLayoutPanel1
+            // 
+            this.tableLayoutPanel1.ColumnCount = 4;
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 27.77778F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 27.77778F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 27.77778F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.tableLayoutPanel1.Controls.Add(this.LCDSizeLabel, 0, 0);
+            this.tableLayoutPanel1.Controls.Add(this.GroupDataLabel, 1, 0);
+            this.tableLayoutPanel1.Controls.Add(this.MemoryLabel, 0, 1);
+            this.tableLayoutPanel1.Controls.Add(this.OSLabel, 0, 9);
+            this.tableLayoutPanel1.Controls.Add(this.CPUBrandLabel, 0, 2);
+            this.tableLayoutPanel1.Controls.Add(this.WebCamLabel, 0, 8);
+            this.tableLayoutPanel1.Controls.Add(this.CPUSpeedLabel, 0, 5);
+            this.tableLayoutPanel1.Controls.Add(this.GPUTypeLabel, 0, 7);
+            this.tableLayoutPanel1.Controls.Add(this.HDDLabel, 0, 6);
+            this.tableLayoutPanel1.Controls.Add(this.CPUTypeLabel, 0, 3);
+            this.tableLayoutPanel1.Controls.Add(this.CPUNumberLabel, 0, 4);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(6, 145);
+            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
+            this.tableLayoutPanel1.RowCount = 10;
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(398, 357);
+            this.tableLayoutPanel1.TabIndex = 27;
             // 
             // OrderForm
             // 
@@ -577,11 +638,13 @@
             this.Name = "OrderForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "OrderForm";
+            this.Activated += new System.EventHandler(this.OrderForm_Activated);
             this.OrderFormMenuStrip.ResumeLayout(false);
             this.OrderFormMenuStrip.PerformLayout();
             this.SysComponentGroupBox.ResumeLayout(false);
             this.YourPriceGroupBox.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.ComputerLogoPictureBox)).EndInit();
+            this.tableLayoutPanel1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -634,5 +697,6 @@
         private System.Windows.Forms.Label PriceLabel;
         private System.Windows.Forms.PictureBox ComputerLogoPictureBox;
         private System.Windows.Forms.Label LogoDataLabel;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
     }
 }

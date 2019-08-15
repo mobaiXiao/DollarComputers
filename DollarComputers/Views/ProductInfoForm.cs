@@ -141,10 +141,10 @@ namespace DollarComputers.Views
 
         private void ProductInfoForm_Activated(object sender, EventArgs e)
         {
-            
             ProductIDDataLabel.Text = Program.product.productID.ToString();
             ConditionDataLabel.Text = Program.product.condition;
-            CostDataLabel.Text = Program.product.cost.ToString();
+            double firstCost = Convert.ToDouble(String.Format("{0:C}", Program.product.cost.ToString()));
+            CostDataLabel.Text = firstCost.ToString();
             PlatformDataLabel.Text = Program.product.platform;
             OSDataLabel.Text = Program.product.OS;
             ManufacturerDataLabel.Text = Program.product.manufacturer;
